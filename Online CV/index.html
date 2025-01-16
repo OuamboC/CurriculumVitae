@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Vitae - Canis Ouambo</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="#roadmap" class="w3-bar-item w3-button w3-hover-none">ROADMAP</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+        <a href="#objective" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">OBJECTIVE</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="./CV_AVATAR.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important; width: 150px; height: 150px; object-fit: cover;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+
+          <!--
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#facebook" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          -->
+
+          
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="mailto: ouambocanis@gmail.com" target="_blank">
+             <i data-feather="mail"></i>
+          </a> 
+          
+
+          
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://github.com/OuamboC" target="_blank">
+             <i data-feather="github"></i>
+          </a>
+          
+          
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/canis-ouambo-203264234/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./Canis_Breal_Ouambo_CV.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="Canis_Breal_Ouambo_CV.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#roadmap" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">ROADMAP</a>
+         <!-- <a href="#objective" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">OBJECTIVE</a> -->
+          <a href="#objective" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">OBJECTIVE</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+           <!-- 
+            <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p> 
+            -->
+            <h1>Canis Breal Ouambo</h2> 
+            
+            <p></p>
+          </div>
+          <!--Objectives SECTION-->
+          <div id="objective" class="w3-container w3-margin-top-19-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">OBJECTIVE</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Software Engineer intern seeking to program in Java, JavaScript, Express.js, Node.js and Vue.js .</p>
+              <p>I am open to on-site, remote, and hybrid opportunities.</p>
+            </div>
+          </div><br>
+
+          <!--ABOUT SECTION-->
+<div id="about" class="w3-container  w3-cursive w3-large">
+    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+    <p>
+        After completing my <strong>Baccalaureate</strong> in Cameroon, I moved to the <strong>United Kingdom</strong> with the unwavering support of my parents to continue my studies.
+         I spent my first year at <strong>Into Manchester</strong>, learning English, starting in September 2019. 
+         It was a challenging but rewarding year as I adjusted to a new culture and environment.
+    </p>
+    <p>
+        When the <strong>COVID-19 pandemic</strong> disrupted our studies, it was a frustrating time, but we quickly adapted to online classes, which taught me the value of resilience and flexibility. 
+        In 2021, I completed my <strong>Foundation Year in Science and Engineering</strong> with <strong>Triple A*</strong> grades, and I was thrilled to receive an offer to study 
+        <strong>Chemical Engineering</strong> at the <strong>University of Manchester</strong>.
+    </p>
+    <p>
+        However, as I embarked on my journey into Chemical Engineering, my path started to shift. 
+        I was drawn to technology and digital innovation, especially after a series of experiences: creating a <strong>Shopify website</strong> while exploring 
+        <strong>dropshipping</strong>, learning <strong>MATLAB</strong> in university, and diving into the world of <strong>blockchain (Web3)</strong>. 
+        These experiences sparked a desire to pursue a career in technology and software development.
+    </p>
+    <p>
+        Though my family and tutors didn't recommend it, I made the difficult decision to change my course and university. 
+        It was a leap into the unknown, but it felt right. This journey is what led me to study 
+        <strong>Software Engineering</strong>, and I haven't looked back since.
+    </p>
+    <p>
+        Another key factor in my decision was my role in helping my <strong>family business</strong> transition online. 
+        I had the opportunity to propose and work on <strong>digitizing our business</strong>, 
+        which further fueled my passion for technology and reinforced my decision to pursue a career in software engineering.
+    </p>
+</div>
+<!--ROADMAP SECTION-->
+<div id="roadmap" class="w3-container w3-margin-top-4 w3-cursive">
+    <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ROADMAP</h2>
+    <p>Click on any of the sections below to jump directly to that part of the curriculum vitae:</p>
+    
+    <ul class="w3-ul w3-large">
+        <li><strong><a href="#education" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">1. EDUCATION</a></strong></li>
+        <li><strong><a href="#projects" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">2. PROJECT</a></strong></li>
+        <li><strong><a href="#experience" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">3. EXPERIENCES</a></strong></li>
+        <li><strong><a href="#skills" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">4. SKILLS</a></strong></li>
+    </ul>
+</div>
+
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-4 w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!---EDUCATION SECTION-->
+            <div id="education" class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber"> EDUCATION</h3>
+                <h4>BSc Software Engineering, Manchester Metropolitan University</h4>
+                <p>September 2022 - Present </p>
+                <h4>First year in Chemical Engineering, University of Manchester</h4>
+                <p>September 2021 - August 2022 </p>
+                <h4>Foundation Degree in Sciences and Engineering, Into Manchester</h4>
+                <p>September 2022 - August 2021 </p>
+                <h4>Baccalaureate, Joss Government High School</h4>
+                <p>September 2018 - August 2019 </p>
+            </div>
+            <!---Projects-->
+            <div  class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 id="projects" class="w3-border-amber">PROJECT</h3>
+              <h4>Landfill Labs Worker Service Testing</h4>
+                <p>Led the testing process for the Worker Service of Landfill Labs as part of university coursework for the Software Testing module. 
+                  Designed comprehensive test plans, test cases, and defect reports to ensure high-quality service functionality. 
+                  Utilized advanced JUnit5 features, including parameterized tests (CSVSource, CSVFileSource, MethodSource), to perform Boundary Value Analysis and Equivalence Partitioning during Unit Testing. 
+                  Conducted Integration and System Testing to verify module interactions and end-to-end functionality. 
+                  Set up a Continuous Integration (CI) pipeline using GitHub Actions and implemented Static Analysis Security Testing (SAST) with Snyk to identify and address vulnerabilities. 
+                  This project highlights expertise in test planning, execution, automation, and security testing, showcasing leadership and technical proficiency in ensuring software reliability. </p>
+
+                <h4>Chirrup Social Media Platform</h4>
+                <p>Developed the ”Chirrup” social media platform utilizing Node.js with Express.js
+                  framework for the backend, SQLite for database management, and Vue.js for the frontend. Conducted comprehensive
+                  endpoint testing using Postman to ensure functionality and reliability. This project’s description spans two lines and
+                  received positive feedback from users for its seamless functionality. </p>
+
+                <h4>Point of Sale Full-Stack Development</h4>
+                <p>Developed a point of sale software with six other developers as part of
+                   university coursework for the Thematic Project modules. Utilized Firebase, a cloud-based database, for efficient data
+                   management, alongside Vue.js for dynamic frontend development. This project showcases proficiency in full-stack
+                   development, integrating cloud-based database solutions with frontend user interface design, and highlights effective
+                   team collaboration using the Kanban Agile methodology. </p>
+
+                <h4><a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://github.com/OuamboC" target="_blank">Explore More Projects on GitHub</a> </h4>
+            </div>
+            <br><br>
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+              <h3 id="experience" class="w3-border-amber">EXPERIENCES</h3>
+              <div  class="">
+                <h4>Course Representative at the Manchester Metropolitan University</h4>
+                <p>September 2024 - Present</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Collected and analyzed student feedback, identifying course strengths and areas for improvement.</li>
+                  <li>Led Student Voice Meetings, negotiating resolutions and advocating for students.</li>
+                  <li>Shared feedback with The Union and Programme Leader, ensuring transparent communication.</li>
+                  <li>Provided updates to students, closing the feedback loop.</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4> Junior Intern Software Engineer at COGENI S.A</h4>
+                <p>July 2024 - September 2024 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Participated in company meetings to discuss Software Development Team initiatives.</li>
+                  <li>Developed system designs and proposed enhancements to improve ERP system architecture.</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Marketing intern at COGENI S.A</h4>
+                <p>June 2018 - August 2018 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Led Content Management initiative for Instagram and Facebook.</li>
+                  <li>Developed and implemented strategies for timely completion of website enhancements, translating marketing goals into technical requirements, and actively participating in team meetings, showcasing initiative and problem solving abilities.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div id="skills" class="w3-container w3-margin-top-2 w3-cursive">
+              <h3  class="w3-border-amber">SKILLS</h3>
+              
+              <!--TECHNICAL SKILLS-->
+              
+              <h4>Technical skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li><strong>Cloud:</strong> AWS, Google Cloud Platform (GCP)</li>
+                  <li><strong>Testing Framework:</strong> JUnit 5,Postman</li>
+                  <li><strong>Security Tools:</strong>  GitHub Actions, Synk, CodeQL, SARIF</li>
+                  <li><strong>Database Systems:</strong> MySQL, DB Browser SQLite, Firebase</li>
+                  <li><strong>Programming:</strong> HTML5, CSS, JavaScript, Java, Python</li>
+                  <li><strong>Game Development:</strong> Python, C, Haskell</li>
+                  <li><strong>Environment:</strong> Node.js, IntelliJ, Visual Studio Code</li>
+                  <li><strong>Framework:</strong> Vue.js, Express.js</li>
+                </ul>
+            </div><br> <br> <br>
+
+            <!--Certifications-->
+              <h4>Certifications</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li><strong>Java Certification</strong> - Codecademy  
+                        Issued: Nov 2024  
+                        Verification: <a href="CertificateOfCompletion_Learn_Java_Course.pdf" target="_blank">
+                        View Certificate</a>
+                  </li>
+                  <li><strong>Becoming a Data Analyst (Whether That Word Is in Your Title or Not)</strong> - LinkedIn Learning  
+                      Issued: Jan 04, 2024  
+                      Certificate ID: <a href="./CertificateOfCompletion_Becoming_a_Data_Analyst_Whether_That_Word_Is_in_Your_Title_or_Not.pdf" target="_blank">
+                      View Certificate</a>
+                  </li>
+                  <li><strong>Data Ethics: Making Data-Driven Decisions</strong> - LinkedIn Learning  
+                      Issued: Jan 02, 2024  
+                      Certificate ID: <a href="./CertificateOfCompletion_Data_Ethics_Making_DataDriven_Decisions.pdf" target="_blank">
+                      View Certificate</a>
+                  </li>
+                  <li><strong>Including Sustainability in Your Cloud Strategy</strong> - LinkedIn Learning  
+                      Issued: Jan 02, 2024  
+                      Certificate ID: <a href="./CertificateOfCompletion_Including_Sustainability_in_Your_Cloud_Strategy.pdf" target="_blank">
+                      View Certificate</a>
+                  </li>
+                </ul> <br> <br> <br>
+
+            <!--Soft SKILLS-->
+              <h4>Soft Sills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li><strong>Communication:</strong> Strong written and verbal communication skills, able to explain complex technical concepts clearly.</li>
+                  <li><strong>Teamwork:</strong> Collaborative team player, experienced in working within cross-functional teams in Agile environments.</li>
+                  <li><strong>Problem-solving:</strong> Ability to approach challenges with creative and analytical thinking to find efficient solutions.</li>
+                  <li><strong>Time Management:</strong> Excellent at prioritizing tasks, managing deadlines, and balancing multiple projects.</li>
+                  <li><strong>Organizational Skills:</strong> Able to manage multiple projects and tasks simultaneously while maintaining high standards of work.</li>
+                
+                </ul><br> <br> <br>
+           
+            <h4>Spoken Languages</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li><strong>English:</strong> Fluent in reading, writing, and speaking</li>
+                  <li><strong>French:</strong> Native Speaker</li>
+                  <li><strong>Spanish:</strong> Beginner</li>
+                </ul>
+            </div>
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-4 w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Canis Breal Ouambo</p>
+              <p>Adress: Manchester, United Kingdom</p>
+              <p>Phone number: +447958544136</p>
+              <p><a href= "mailto: ouambocanis@gmail.com">E-mail: ouambocanis@gmail.com</a></p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2025 - Canis Breal Ouambo</p>
+           <p class="w3-small">
+            Passionate about Software Engineering and always eager to solve real-world challenges with innovative solutions.
+            Looking for opportunities to grow and contribute to impactful projects. <strong><a href="mailto:ouambocanis@gmail.com">Contact Me</a></strong> for collaborations or job offers!
+          </p>
+          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://github.com/OuamboC" target="_blank">Explore My Projects on GitHub</a> 
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
